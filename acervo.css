@@ -1,0 +1,164 @@
+/* Estilos gerais */
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f5f0;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #1b2c51;
+    color: #f8f5f0;
+    padding: 2rem 0;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    border-bottom: 5px solid #b8860b;
+    background-image: url('https://images.unsplash.com/photo-1532012197267-da84d127e765?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+header p {
+    font-style: italic;
+    color: #b8860b;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+nav ul a {
+    margin: 0 1.5rem;
+    position: relative;
+    color: #f8f5f0;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: all 0.3s;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+nav ul a:hover {
+    color: #b8860b; /* Dourado */
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+nav ul a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #b8860b; /* Dourado */
+    transition: width 0.3s;
+}
+
+nav ul a:hover::after {
+    width: 100%;
+}
+/* Barra de pesquisa */
+.search-bar {
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.search-bar input {
+    padding: 0.8rem 1.2rem;
+    width: 60%;
+    max-width: 500px;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    font-size: 1rem;
+    outline: none;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Grid de livros */
+.book-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 2.5rem;
+    margin-top: 1.5rem;
+}
+
+/* Cartão de livro */
+.book-card {
+    background: white;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: 1px solid #ddd;
+}
+
+.book-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.book-cover {
+    height: 250px;
+    background-color: #eee;
+    background-size: cover;
+    background-position: center;
+}
+
+.book-info {
+    padding: 1rem;
+    background-color: white;
+    color: gray;
+}
+
+.book-info h3 {
+    color: #b8860b;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.book-info a {
+    text-decoration: none;
+    color: inherit; /* opcional: mantém a cor do texto pai */
+  }  
+
+.book-info p {
+    margin: 0.3rem 0;
+    font-size: 0.9rem;
+}
+
+.author {
+    font-style: italic;
+    color: #666;
+}
+
+.year {
+    color: #888;
+    font-size: 0.8rem;
+}
+
+/* Rodapé */
+footer {
+    background-color: #1b2c51;
+    color: #fdd835;
+    padding: 30px 20px;
+    text-align: center;
+  }
+
+footer p {
+    margin: 0;
+}

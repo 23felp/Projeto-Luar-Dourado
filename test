@@ -1,0 +1,843 @@
+<!DOCTYPE html> <!-- Declara o tipo de documento como HTML5 -->
+<html lang="pt-BR"> <!-- Define o idioma da página como português do Brasil -->
+<head>
+  <meta charset="UTF-8" /> <!-- Define a codificação de caracteres como UTF-8 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!-- Garante que a página seja responsiva em dispositivos móveis -->
+  <link rel="icon" href="imgG/favicon-32x32.io.png" type="image/png">
+  <title>Biblioteca Luar Dourado</title> <!-- Define o título que aparece na aba do navegador -->
+  <link rel="stylesheet" href="index.css"> <!-- Importa o arquivo CSS externo para estilizar a página -->
+  <section id="inicio"></section>
+</head>
+<body> <!-- Início do conteúdo visível da página -->
+  <header> <!-- Cabeçalho da página -->
+    <h1>Biblioteca Luar Dourado</h1> <!-- Título principal -->
+    <p>"Um pequeno livro lido, é um grande passo para o conhecimento"</p>
+    
+    <div class="search-bar"> <!-- Barra de busca -->
+      <input type="text" placeholder="Buscar livros, autores, gêneros..."> <!-- Campo de entrada para a busca -->
+    </div>
+</header>
+
+    <nav> <!-- Menu de navegação -->
+        <!-- Cada link leva a uma seção da mesma página -->
+        <ul>
+        <a href="#inicio">Início</a>
+        <a href="aluguel.html">Aluguel</a>
+        <a href="#destaques">Destaques do Acervo</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contato">Contato</a>
+      </ul>
+      </nav>
+
+  <main>
+  <!-- Seção de destaque com imagem e frase principal -->
+  <div class="hero">
+    <h2>Bem-vindo à Biblioteca Luar Dourado</h2>
+    <p>Mais de 500 títulos à disposição da comunidade</p>
+    <a href="acervo.php" class="btn">Explore nosso acervo</a>
+</div>
+
+  <!-- Sobre a biblioteca -->
+
+  <div class="author-spotlight">
+    <img src="imgG/Azul e Dourado Ícone de Livro Educação Logotipo (Apresentação).jpg" alt="Monteiro Lobato" width="200" height="200">
+    <div>
+        <h3>Sobre Nós</h3>
+        <p>A Biblioteca Luar Dourado, fundada em 2025, é um espaço dedicado à preservação do conhecimento, da cultura e da imaginação. Com um acervo cuidadosamente selecionado que abrange desde clássicos da literatura até obras contemporâneas, a biblioteca convida leitores de todas as idades a explorarem novos mundos através das palavras. Seu ambiente acolhedor, iluminado pela simbólica “luz dourada” do saber, é um refúgio para quem busca aprendizado, inspiração e tranquilidade. Mais do que um repositório de livros, a Luar Dourado é um ponto de encontro para a comunidade, promovendo eventos culturais, oficinas e rodas de leitura que estimulam o diálogo e o pensamento crítico.</p>
+    </div>
+</div>
+
+  <!-- Seção com livros famosos -->
+  <section class="section" id="destaques">
+    <h2>Destaques do Acervo</h2>
+    <div class="book-grid">
+      <div class="book-card">
+          <div class="book-cover" style="background-image: url('https://m.media-amazon.com/images/I/81klJGqMlcL._SY466_.jpg');"></div>
+          <div class="book-info">
+            <a href="HP.html">
+              <h3>Harry Potter e a Pedra Filosofal</h3></a>
+              <p>J.K. Rowling </p>
+          </div>
+      </div>
+      
+      <div class="book-card">
+          <div class="book-cover" style="background-image: url('https://m.media-amazon.com/images/I/515cVYLIP9L._SY445_SX342_.jpg');"></div>
+          <div class="book-info">
+            <a href="cemanos.html">
+              <h3>Cem Anos de Solidão</h3></a>
+              <p>Gabriel García Márquez</p>
+          </div>
+      </div>
+      
+      <div class="book-card">
+        <div class="book-cover" style="background-image: url('https://m.media-amazon.com/images/I/819js3EQwbL._SY466_.jpg');"></div>
+          <div class="book-info">
+            <a href="1984.html">
+            <h3>1984</h3></a>
+            <p>George Orwell</p>
+          </div>
+      </div>
+      
+      <div class="book-card">
+          <div class="book-cover" style="background-image: url('https://m.media-amazon.com/images/I/71HgBiS-LKL._SY466_.jpg');"></div>
+          <div class="book-info">
+            <a href="OPP.html">
+              <h3>O Pequeno Príncipe</h3></a>
+              <p>Antoine de Saint-Exupéry</p>
+          </div>
+      </div>
+      
+      <div class="book-card">
+          <div class="book-cover" style="background-image: url('https://m.media-amazon.com/images/I/51IOoDKaUaL._SY445_SX342_.jpg');"></div>
+          <div class="book-info">
+            <a href="amendoas.html">
+              <h3>Amêndoas</h3></a>
+              <p> Won-pyung Sohn</p>
+          </div>
+      </div>
+      
+      <div class="book-card">
+          <div class="book-cover" style="background-image: url('https://m.media-amazon.com/images/I/716EGgqzyOL._SY466_.jpg');"></div>
+          <div class="book-info">
+            <a href="OneP.html">
+              <h3>One Piece Vol. 1 </h3></a>
+              <p>Eiichiro Oda </p>
+          </div>
+      </div>
+  </div>
+  </section>
+
+ 
+  
+
+ 
+
+  <!-- Seção com depoimentos de leitores -->
+  <section class="section" id="depoimentos">
+    <h2>Depoimentos de Leitores</h2>
+    <div class="testimonials">
+      <div class="testimonial">
+        <p>"A Biblioteca Luar Dourado me ajudou a reencontrar o prazer da leitura!" — Ana Clara, 22 anos</p>
+      </div>
+      <div class="testimonial">
+        <p>"Ambiente tranquilo e ótimos livros. Recomendo demais!" — Marcelo, 30 anos</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção de perguntas frequentes -->
+  <section class="section" id="faq">
+    <h2>Perguntas Frequentes (FAQ)</h2>
+    <div class="faq-item">
+      <h4>Como faço um empréstimo?</h4>
+      <p>Você pode pegar até 3 livros por vez com validade de 15 dias.</p>
+    </div>
+    <div class="faq-item">
+        <h4>E se eu atrasar a devolução?</h4>
+        <p>A cada dia de atraso é adicionado uma multa de R$1,00.</p>
+      </div>
+    <div class="faq-item">
+      <h4>Como me cadastro?</h4>
+      <p>Preencha o formulário abaixo ou venha presencialmente com documento com foto.</p>
+    </div>
+  </section>
+
+ <!-- Formulário de cadastro -->
+ <section class="section" id="cadastro">
+  <h2>Cadastro de Leitores</h2>
+  <form>
+    <input type="text" placeholder="Nome completo" required>
+    <input type="email" placeholder="E-mail" required>
+    <input type="text" placeholder="CPF" required>
+    <textarea placeholder="Mensagem ou dúvidas"></textarea>
+    <button type="submit">Enviar</button>
+  </form>
+</section>
+
+<!-- Formulário de login -->
+<section class="section" id="login">
+  <h2>Login de Leitores</h2>
+  <form>
+    <input type="email" placeholder="E-mail" required>
+    <input type="password" placeholder="Senha" required>
+    <button type="submit">Entrar</button>
+  </form>
+</section>
+
+ 
+  <!-- Seção de contato -->
+  <section class="section" id="contato">
+    <h2>Contato</h2>
+    <p style="text-align:center;">biblioteca@luardourado.com.br | (21) 98765-4321</p>
+  </section>
+
+  </main>
+
+  <!-- Rodapé da página -->
+  <footer>
+    <p>&copy; 2025 Biblioteca Luar Dourado — Todos os direitos reservados</p>
+    <div class="footer-links">
+      <a href="#inicio">Início</a>
+      <a href="#acervo">Acervo</a>
+      <a href="#contato">Contato</a>
+    </div>
+
+  </footer>
+</body>
+</html>
+
+
+
+<?php
+  $servidor = "localhost";
+  $usuario = "root";
+  $senha = "";
+  $name = "luar_dourado";
+  $conn = mysqli_connect($servidor, $usuario, $senha, $name);
+?>
+
+/////
+
+<?php include_once"config.php"; ?>
+<?php
+echo $nome = $_POST['nome'] ;
+echo $celular = $_POST['celular'] ;
+echo $email = $_POST['email'] ;
+echo $cpf = $_POST['cpf'] ;
+echo $senha = $_POST['senha'] ;
+echo $obs = $_POST['obs'] ;
+
+$sql = "INSERT INTO tb_cadastro(nome, celular, email, cpf, senha, obs)VALUES('$nome', '$celular', '$email', '$cpf', '$senha', '$obs')";
+
+        if (mysqli_query($conn,$sql)){
+           header("Location: inicial.php");
+        }else{
+           echo "Deu erro" . $sql . "<br>" . mysqli_error($conn);
+        }
+           mysqli_close($conn);
+
+?>
+
+////////
+
+<!-- Formulário de cadastro -->
+<form method="post" name="cliente" action="cadastro.php">
+  <label> Nome</label>
+  <input type="text" name="nome" maxlength="150">
+
+  <label> Celular </label>
+  <input type="text" name="celular" maxlength="17">
+
+  <label> Email </label>
+  <input type="text" name="email" maxlength="100">
+
+  <label> Senha </label>
+  <input type="password" name="senha" maxlength="255">
+
+  <input type="submit" name="enviar" value="Enviar">
+
+</form>
+</section>
+
+<!-- Formulário de login -->
+<section class="section" id="login">
+<h2>Login de Leitores</h2>
+ <form>
+ <form method="POST" name="login" action="login.php">
+
+ <label> Email </label>
+ <input type="text" name="email" maxlength="100">
+
+ <label> Senha </label>
+ <input type="password" name="senha" maxlength="20">
+
+ <input type="submit" name="enviar" value="Enviar">
+
+ </form>
+ </section>
+
+ /////////
+
+ <nav> <!-- Menu de navegação -->
+        <!-- Cada link leva a uma seção da mesma página -->
+        <ul>
+        <a href="#inicio">Início</a>
+        <a href="aluguel.html">Aluguel</a>
+        <a href="#destaques">Destaques do Acervo</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contato">Contato</a>
+      </ul>
+      </nav> 
+
+
+///////
+
+/* Margem superior do menu de navegação */
+  nav {
+    background-color: #1b2c51; /* Azul marinho */
+    padding: 1rem;
+    top: 0;
+    z-index: 100;
+}
+
+/*link do login*/
+
+.linklogin {
+  text-align: center;
+}
+
+  /* Estilo dos links do menu de navegação */
+
+  nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul a {
+    margin: 0 1.5rem;
+    position: relative;
+    color: #f8f5f0;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: all 0.3s;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+nav ul a:hover {
+    color: #b8860b; /* Dourado */
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+nav ul a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #b8860b; /* Dourado */
+    transition: width 0.3s;
+}
+
+nav ul a:hover::after {
+    width: 100%;
+}
+
+//////
+
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      min-height: 100vh;
+      background-color: #f5f5f5;
+    }
+
+
+    //////
+
+    <style>
+        body { font-family: Arial; margin: 20px; }
+    </style>
+
+    ///////
+
+    <?php
+session_start();
+if (!isset($_SESSION['logado']) || $_SESSION['logado'] !== true) {
+    header("Location: inicial.php");
+    exit;
+}
+?>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <style>
+        body { font-family: Arial; margin: 20px; }
+    </style>
+</head>
+<body>
+    <h2>Bem-vindo, <?php echo htmlspecialchars($_SESSION['email']); ?>!</h2>
+    <p>Você está logado.</p>
+    <form method="post" action="logout.php">
+        <input type="submit" value="Sair">
+    </form>
+</body>
+</html>
+
+///////
+
+session_start();
+
+if (isset($_SESSION['email'])) {
+    $email = $_SESSION['email'];
+    echo $email;
+} else {
+    echo "Usuário não logado.";
+}
+
+///////
+
+<?php
+session_start();
+if (!isset($_SESSION['logado']) || $_SESSION['logado'] !== true) {
+    header("Location: inicial.php");
+    exit;
+}
+
+include("conexao.php"); // ou como for o nome do seu arquivo de conexão
+
+$email = $_SESSION['email']; // ou a chave que você usou para salvar o ID
+
+$sql = "SELECT email, foto_nome FROM tb_cadastro WHERE email = ?";
+$stmt = $conn->prepare($sql);
+$stmt->bind_param("i", $email);
+$stmt->execute();
+$result = $stmt->get_result();
+$dados = $result->fetch_assoc();
+
+$email = $dados['email'] ?? 'Email não disponível';
+$foto_nome = [
+    'foto_nome' => $dados['foto_nome'] ?? 'imagens/default.png'
+];
+?>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alugar um Livro</title>
+  <link rel="stylesheet" href="aluguel.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h2>Alugar um Livro</h2>
+    <form id="rentalForm">
+      <label for="nome">Nome completo:</label>
+      <input type="text" id="nome" required />
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" required />
+
+      <label for="celular">Celular:</label>
+      <input type="tel" id="celular" required pattern="\d{10,11}" placeholder="Apenas números, ex: 11999999999" />
+
+      <label for="senha">Senha de login:</label>
+      <input type="password" id="senha" required minlength="6" />
+
+      <label for="cartao">Número do cartão de crédito:</label>
+      <input type="text" id="cartao" required pattern="\d{16}" placeholder="16 dígitos" />
+
+      <label for="cvv">CVV (Código de segurança):</label>
+      <input type="text" id="cvv" required pattern="\d{3}" placeholder="3 dígitos" />
+
+      <label for="livro">Livro:</label>
+      <select id="livro" required>
+        <option value="">-- Selecione um livro --</option>
+        <option value="O Pequeno Príncipe">O Pequeno Príncipe</option>
+        <option value="Dom Casmurro">Dom Casmurro</option>
+        <option value="1984">1984</option>
+        <option value="Orgulho e Preconceito">Orgulho e Preconceito</option>
+      </select>
+
+      <label for="dias">Quantidade de dias (máximo 15):</label>
+      <input type="number" id="dias" min="1" max="15" required />
+
+      <button type="submit">Alugar</button>
+    </form>
+
+    <div class="confirmation" id="confirmation"></div>
+  </div>
+
+  <script src="aluguel.js"></script>
+</body>
+</html>
+
+id	cliente_id	livro_id	dias_aluguel	data_pedido	
+
+//////////////
+
+<?php
+session_start();
+include 'config.php';
+
+// Verifica se o cliente está logado
+if (!isset($_SESSION['cliente_id'])) {
+    header('Location: login.php');
+    exit;
+}
+
+$cliente_id = $_SESSION['cliente_id'];
+$mensagem = '';
+
+// Se o formulário foi enviado
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $livro_id = $_POST['livro_id'];
+    $dias_aluguel = $_POST['dias_aluguel'];
+    $data_pedido = date('Y-m-d');
+
+    // Inserir pedido no banco
+    $stmt = $conn->prepare("INSERT INTO tb_pedidos (cliente_id, livro_id, dias_aluguel, data_pedido) VALUES (?, ?, ?, ?)");
+    $stmt->bind_param("iiis", $id_cliente, $livro_id, $dias_aluguel, $data_pedido);
+
+    if ($stmt->execute()) {
+        $mensagem = "Pedido realizado com sucesso!";
+    } else {
+        $mensagem = "Erro ao realizar o pedido.";
+    }
+    $stmt->close();
+}
+
+// Buscar livros para o formulário
+$livros = [];
+$result = $conn->query("SELECT id, titulo FROM tb_livros");
+while ($row = $result->fetch_assoc()) {
+    $livros[] = $row;
+}
+?>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Fazer Pedido</title>
+</head>
+<body>
+    <h1>Fazer Pedido de Livro</h1>
+
+    <?php if ($mensagem): ?>
+        <p><strong><?= $mensagem ?></strong></p>
+    <?php endif; ?>
+
+    <form method="POST">
+        <label for="livro_id">Escolha o livro:</label><br>
+        <select name="livro_id" required>
+            <option value="">--Selecione--</option>
+            <?php foreach ($livros as $livro): ?>
+                <option value="<?= $livro['livro_id'] ?>"><?= $livro['titulo'] ?></option>
+            <?php endforeach; ?>
+        </select><br><br>
+
+        <label for="dias_aluguel">Quantidade de dias:</label><br>
+        <input type="number" name="dias_aluguel" min="1" required><br><br>
+
+        <button type="submit">Fazer Pedido</button>
+    </form>
+</body>
+</html>
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+ALUGUEL FUNCIONAL
+
+<?php
+include 'config.php';
+
+$mensagem = "";
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $nome = $_POST['nome_cliente'];
+    $email = $_POST['email_cliente'];
+    $id_livro = $_POST['id_livro'];
+    $dias = $_POST['dias'];
+    $data_pedido = date('Y-m-d');
+
+    $stmt = $conn->prepare("INSERT INTO tb_pedidos_publicos (nome_cliente, email_cliente, id_livro, dias, data_pedido) VALUES (?, ?, ?, ?, ?)");
+    $stmt->bind_param("ssiis", $nome, $email, $id_livro, $dias, $data_pedido);
+
+    if ($stmt->execute()) {
+        $mensagem = "Pedido realizado com sucesso!";
+    } else {
+        $mensagem = "Erro ao realizar pedido: " . $stmt->error;
+    }
+
+    $stmt->close();
+}
+
+// Buscar livros do banco
+$livros = [];
+$result = $conn->query("SELECT id, titulo FROM tb_livros");
+while ($row = $result->fetch_assoc()) {
+    $livros[] = $row;
+}
+?>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Pedido de Livro Público</title>
+</head>
+<body>
+    <h2>Fazer Pedido de Livro</h2>
+
+    <?php if ($mensagem): ?>
+        <p><strong><?= $mensagem ?></strong></p>
+    <?php endif; ?>
+
+    <form method="POST">
+        <label for="nome_cliente">Nome:</label><br>
+        <input type="text" name="nome_cliente" required><br><br>
+
+        <label for="email_cliente">Email:</label><br>
+        <input type="email" name="email_cliente" required><br><br>
+
+        <label for="id_livro">Livro:</label><br>
+        <select name="id_livro" required>
+            <option value="">--Selecione--</option>
+            <?php foreach ($livros as $livro): ?>
+                <option value="<?= $livro['id_livro'] ?>"><?= htmlspecialchars($livro['titulo']) ?></option>
+            <?php endforeach; ?>
+        </select><br><br>
+
+        <label for="dias">Quantidade de dias:</label><br>
+        <input type="number" name="dias" min="1" required><br><br>
+
+        <button type="submit">Enviar Pedido</button>
+    </form>
+</body>
+</html>
+
+
+/////////////////////////////////////////////////////////////////////////
+
+<?php
+session_start();
+
+if (!isset($_SESSION['logado']) || $_SESSION['logado'] !== true || !isset($_SESSION['email'])) {
+    header("Location: inicial.php");
+    exit;
+}
+
+include("config.php"); // Conexão com o banco
+
+$email_sessao = $_SESSION['email'];
+
+$sql = "SELECT usuario, foto_nome FROM tb_cadastro WHERE email = ?";
+$stmt = $conn->prepare($sql);
+$stmt->bind_param("s", $email_sessao); // "s" = string
+$stmt->execute();
+$result = $stmt->get_result();
+$dados = $result->fetch_assoc();
+
+if ($dados) {
+    $usuario = $dados['usuario'];
+    $foto_nome = $dados['foto_nome'] ?? 'imagens/default.png';
+
+    // Se quiser manter na sessão:
+    $_SESSION['foto_nome'] = $foto_nome;
+} else {
+    // Usuário não encontrado no banco, mesmo com o email
+    $usuario = 'Desconhecido';
+    $foto_nome = 'imagens/default.png';
+}
+?>
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title></title>
+
+  <!-- Boxicons CDN -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+  <style>
+
+    #menu-toggle {
+      display: none;
+    }
+
+    .hamburger {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      width: 30px;
+      height: 22px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      cursor: pointer;
+      z-index: 3;
+    }
+
+    .hamburger span {
+      display: block;
+      height: 4px;
+      background: #333;
+      border-radius: 2px;
+      transition: all 0.3s ease;
+    }
+
+    #menu-toggle:checked + .hamburger span:nth-child(1) {
+      transform: translateY(9px) rotate(45deg);
+    }
+    #menu-toggle:checked + .hamburger span:nth-child(2) {
+      opacity: 0;
+    }
+    #menu-toggle:checked + .hamburger span:nth-child(3) {
+      transform: translateY(-9px) rotate(-45deg);
+    }
+
+    .sidebar {
+      position: fixed;
+      top: 0;
+      left: -250px;
+      width: 250px;
+      height: 100%;
+      background-color: #111;
+      color: white;
+      padding-top: 60px;
+      transition: left 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      z-index: 2;
+    }
+
+    #menu-toggle:checked ~ .sidebar {
+      left: 0;
+    }
+
+    .profile {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    .profile img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      border: 2px solid #fff;
+      margin-bottom: 10px;
+    }
+
+    .profile h3 {
+      font-size: 18px;
+      margin-bottom: 4px;
+    }
+
+    .sidebar ul {
+      list-style: none;
+      padding: 0 1rem;
+    }
+
+    .sidebar li {
+      margin-bottom: 15px;
+    }
+
+    .sidebar a {
+      color: white;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 16px;
+      padding: 10px;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    .sidebar a i {
+      font-size: 20px;
+    }
+
+    .sidebar a:hover {
+      background-color: #333;
+    }
+
+    .logout {
+      padding: 1rem;
+      border-top: 1px solid #444;
+    }
+
+    .logout a {
+      color: red;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: bold;
+    }
+
+    .logout a i {
+      font-size: 20px;
+    }
+
+    #menu-toggle:checked ~ .content {
+      margin-left: 250px; 
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Toggle do Menu -->
+  <input type="checkbox" id="menu-toggle"/>
+
+  <!-- Botão Hamburger -->
+  <label for="menu-toggle" class="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </label>
+
+  <!-- Sidebar com ícones Boxicons -->
+  <nav class="sidebar">
+    <div>
+
+  <!-- Foto e Nome -->
+    <div class="profile">
+    <img src="fotos/<?= htmlspecialchars($foto_nome) ?>" alt="Foto">
+    <h3><?= htmlspecialchars($usuario) ?></h3>
+         <p>Bem-vindo!</p>
+    </div>
+
+      <!-- Navegação -->
+      <ul>
+        <li><a href="home.php"><i class='bx bx-home'></i> Início</a></li>
+        <li><a href="#"><i class='bx bx-user'></i> Perfil</a></li>
+        <li><a href="#"><i class='bx bx-history'></i> Histórico</a></li>
+        <li><a href="coment.php"><i class='bx bx-comment-detail'></i> Comentários</a></li>
+        <li><a href="acervo.php"><i class='bx bx-book'></i> Acervo</a></li>
+        <li><a href="aluguel.php"><i class='bx bx-key'></i> Aluguel</a></li>
+        <li><a href="#contato"><i class='bx bx-phone'></i> Contato</a></li>
+        <li><a href="#faq"><i class='bx bx-help-circle'></i> FAQ</a></li>
+      </ul>
+    </div>
+
+    <!-- Logout -->
+    <div class="logout">
+      <a href="logout.php"><i class='bx bx-log-out'></i> Sair</a>
+    </div>
+  </nav>
+
+  <!-- Conteúdo Principal -->
+  <main>
+  
+  </main>
+</body>
+</html>
