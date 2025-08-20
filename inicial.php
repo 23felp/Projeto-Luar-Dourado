@@ -11,7 +11,7 @@
 </head>
   <header> <!-- Cabeçalho da página -->
     <h1>Biblioteca Luar Dourado</h1> <!-- Título principal -->
-    <p>"Um pequeno livro lido, é um grande passo para o conhecimento"</p>    
+    <p>"Um pequeno livro lido, é um grande passo para o conhecimento!"</p>    
 </header>
 
   <div class="inicial-nav">
