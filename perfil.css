@@ -1,0 +1,249 @@
+/* Profile Page Specific Styles */
+.profile-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+.profile-container h2 {
+  color: #b8860b;;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #b8860b;
+  font-size: 2rem;
+}
+
+.profile-container h3 {
+  color: #1b2c51;
+  margin: 1.5rem 0 1rem;
+  font-size: 1.3rem;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.profile-info p {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #b8860b;
+  overflow: hidden;
+  margin: 1rem 0;
+  background-color: #f0e6d2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-forms {
+  margin-top: 2rem;
+}
+
+.profile-forms form {
+  background-color: #f8f5f0;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  border: 1px solid #ddd;
+}
+
+.profile-forms input[type="text"],
+.profile-forms input[type="password"],
+.profile-forms input[type="file"] {
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0.5rem 0 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  background-color: white;
+}
+
+.profile-forms input[type="file"] {
+  padding: 0.5rem;
+}
+
+.profile-forms button {
+  background-color: #b8860b;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all 0.3s;
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #1b2c51;
+  color: #f8f5f0;
+  padding: 2rem 0;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  border-bottom: 5px solid #b8860b;
+  background-image: url('https://images.unsplash.com/photo-1494809610410-160faaed4de0?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+header p {
+  font-style: italic;
+  color: #b8860b;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+
+/* Navegação */
+.inicial-nav {
+  text-align: center;
+  background-color: #1b2c51;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+menu.menu-princ ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+menu.menu-princ ul a {
+  margin: 0 1.5rem;
+  position: relative;
+  color: #f8f5f0;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: all 0.3s;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.inicial-nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menu-princ a:hover {
+  color: #b8860b;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.inicial-nav a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #b8860b;
+  transition: width 0.3s;
+}
+
+.menu-princ a:hover::after {
+  width: 100%;
+}
+
+.profile-forms button:hover {
+  background-color: #a6780d;
+  transform: translateY(-2px);
+}
+
+form[action="excluir_conta.php"] button {
+  background-color: #c62828;
+}
+
+form[action="excluir_conta.php"] button:hover {
+  background-color: #b71c1c;
+}
+
+form[action="logout.php"] button {
+  background-color: #1b2c51;
+}
+
+form[action="logout.php"] button:hover {
+  background-color: #0f1c3a;
+}
+
+footer {
+  margin-top: 3rem;
+  padding: 1.5rem;
+  background-color: #1b2c51;
+  color: #f8f5f0;
+  text-align: center;
+  border-top: 3px solid #b8860b;
+}
+
+footer p {
+  color: #b8860b;
+  font-weight: 500;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .profile-container {
+    padding: 1.5rem;
+    margin: 1rem;
+  }
+  
+  .profile-picture {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .profile-forms form {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .profile-container h2 {
+    font-size: 1.5rem;
+  }
+  
+  .profile-container h3 {
+    font-size: 1.1rem;
+  }
+  
+  .profile-forms input,
+  .profile-forms button {
+    padding: 0.7rem;
+  }
+}
