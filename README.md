@@ -6,3 +6,6 @@ Gerenciamento de livros.
 
 ## Capturas de tela
 <img src="" />
+
+## Tecnologias utilizadas no projeto
+-
