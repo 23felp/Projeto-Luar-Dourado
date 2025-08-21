@@ -11,6 +11,20 @@
     <header>
         <h1>Acervo Literário</h1>
         <p>Descubra grandes obras da literatura mundial</p>
+<<<<<<< HEAD
+=======
+    
+
+    <nav> <!-- Menu de navegação -->
+        <!-- Cada link leva a uma seção da mesma página -->
+        <ul>
+      </ul>
+      </nav>
+    </header>
+
+
+
+>>>>>>> 22a0ff52cfac5c6b899e1b607f3392e87e1ae875
     <div class="container">
         <div class="search-bar">
             <input type="text" id="searchInput" placeholder="Pesquise por título, autor ou gênero...">
@@ -21,7 +35,11 @@
             <div class="book-card">
                 <div class="book-cover" style="background-image: url('https://m.media-amazon.com/images/I/81klJGqMlcL._SY466_.jpg');"></div>
                 <div class="book-info">
+<<<<<<< HEAD
                 <a href="HP.php"> 
+=======
+                <a href="HP.html"> 
+>>>>>>> 22a0ff52cfac5c6b899e1b607f3392e87e1ae875
                     <h3> Harry Potter e a Pedra Filosofal</h3></a>
                     <p class="year">2020</p>
                 </div>
@@ -31,7 +49,11 @@
             <div class="book-card">
                 <div class="book-cover" style="background-image: url('https://m.media-amazon.com/images/I/819js3EQwbL._SY466_.jpg');"></div>
                 <div class="book-info">
+<<<<<<< HEAD
                     <a href="1984.php">
+=======
+                    <a href="1984.html">
+>>>>>>> 22a0ff52cfac5c6b899e1b607f3392e87e1ae875
                     <h3>1984</h3></a>
                     <p class="author">George Orwell</p>
                     <p class="year">2009</p>
@@ -52,7 +74,11 @@
             <div class="book-card">
                 <div class="book-cover" style="background-image: url('https://m.media-amazon.com/images/I/71HgBiS-LKL._SY466_.jpg');"></div>
                 <div class="book-info">
+<<<<<<< HEAD
                     <a href="OPP.php">
+=======
+                    <a href="OPP.html">
+>>>>>>> 22a0ff52cfac5c6b899e1b607f3392e87e1ae875
                     <h3>O Pequeno Príncipe</h3></a>
                     <p class="author">Antoine de Saint-Exupéry</p>
                     <p class="year">1943</p>
@@ -63,7 +89,11 @@
             <div class="book-card">
                 <div class="book-cover" style="background-image: url('https://m.media-amazon.com/images/I/515cVYLIP9L._SY445_SX342_.jpg');"></div>
                 <div class="book-info">
+<<<<<<< HEAD
                     <a href="cemanos.php">
+=======
+                    <a href="cemanos.html">
+>>>>>>> 22a0ff52cfac5c6b899e1b607f3392e87e1ae875
                     <h3>Cem Anos de Solidão</h3></a>
                     <p class="author">Gabriel García Márquez</p>
                     <p class="year">1967</p>
@@ -219,6 +249,7 @@
           </div>
           </div>
 
+<<<<<<< HEAD
           <div class="book-card">
           <div class="book-cover" style="background-image: url('https://m.media-amazon.com/images/I/51IOoDKaUaL._SY445_SX342_.jpg');"></div>
           <div class="book-info">
@@ -229,6 +260,9 @@
       </div>
 
     </header>
+=======
+
+>>>>>>> 22a0ff52cfac5c6b899e1b607f3392e87e1ae875
     <footer>
         <p>© 2025 Luar Dourado - Acervo Literário - Todos os direitos reservados</p>
     </footer>

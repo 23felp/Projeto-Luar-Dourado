@@ -20,9 +20,12 @@
             <input type="password" name="senha" required>
             <input type="submit" value="Cadastrar">
         </form>
+<<<<<<< HEAD
 
         <a href="inicial.php" class="cadastro">Voltar ao inicio</a>
         
+=======
+>>>>>>> 22a0ff52cfac5c6b899e1b607f3392e87e1ae875
         <!-- Link login--> 
         <div class="linklogin">
         <p><a href="login.php">Já tem conta? | Faça login</a></p>

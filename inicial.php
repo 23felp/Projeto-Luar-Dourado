@@ -11,7 +11,11 @@
 </head>
   <header> <!-- Cabeçalho da página -->
     <h1>Biblioteca Luar Dourado</h1> <!-- Título principal -->
+<<<<<<< HEAD
     <p>"Um pequeno livro lido, é um grande passo para o conhecimento"</p>    
+=======
+    <p>"Um pequeno livro lido, é um grande passo para o conhecimento!"</p>    
+>>>>>>> 22a0ff52cfac5c6b899e1b607f3392e87e1ae875
 </header>
 
   <div class="inicial-nav">
@@ -37,7 +41,11 @@
   <div class="hero">
     <h2>Bem-vindo à Biblioteca Luar Dourado</h2>
     <p>Mais de 500 títulos à disposição da comunidade</p>
+<<<<<<< HEAD
     <a href="login.php" class="btn">Explore nosso acervo</a>
+=======
+    <a href="acervo.php" class="btn">Explore nosso acervo</a>
+>>>>>>> 22a0ff52cfac5c6b899e1b607f3392e87e1ae875
 </div>
 
   <!-- Sobre a biblioteca -->
@@ -64,6 +72,18 @@
       </div>
       
       <div class="book-card">
+<<<<<<< HEAD
+=======
+          <div class="book-cover" style="background-image: url('https://m.media-amazon.com/images/I/515cVYLIP9L._SY445_SX342_.jpg');"></div>
+          <div class="book-info">
+            <a href="cemanos.html">
+              <h3>Cem Anos de Solidão</h3></a>
+              <p>Gabriel García Márquez</p>
+          </div>
+      </div>
+      
+      <div class="book-card">
+>>>>>>> 22a0ff52cfac5c6b899e1b607f3392e87e1ae875
         <div class="book-cover" style="background-image: url('https://m.media-amazon.com/images/I/819js3EQwbL._SY466_.jpg');"></div>
           <div class="book-info">
             <a href="1984.html">
@@ -175,7 +195,11 @@ resizeBtn.addEventListener('click', function(e) {
     <p>&copy; 2025 Biblioteca Luar Dourado — Todos os direitos reservados</p>
     <div class="footer-links">
       <a href="#inicio">Início</a>
+<<<<<<< HEAD
       <a href="login.php">Acervo</a>
+=======
+      <a href="#acervo">Acervo</a>
+>>>>>>> 22a0ff52cfac5c6b899e1b607f3392e87e1ae875
       <a href="#contato">Contato</a>
     </div>
 

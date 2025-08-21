@@ -840,6 +840,7 @@ if ($dados) {
   
   </main>
 </body>
+<<<<<<< HEAD
 </html>
 
 
@@ -1109,4 +1110,6 @@ $_SESSION['id'] = $id;
         </form>
     </div>
 </body>
+=======
+>>>>>>> 22a0ff52cfac5c6b899e1b607f3392e87e1ae875
 </html>

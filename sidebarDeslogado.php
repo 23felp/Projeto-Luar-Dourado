@@ -154,6 +154,7 @@ nav ul a:hover::after {
     <!-- Navegação -->
     <ul>
       <li><a href="#inicio"><i class='bx bx-home'></i> Início</a></li>
+<<<<<<< HEAD
       <li><a href="login.php"><i class='bx bx-user'></i> Perfil</a></li>
       <li><a href="login.php"><i class='bx bx-history'></i> Histórico</a></li>
       <li><a href="coment.php"><i class='bx bx-comment-detail'></i> Comentários</a></li>
@@ -164,6 +165,16 @@ nav ul a:hover::after {
       <li><a href="inscrever.php"><i class='bx bx-help-circle'></i> Cadastrar</a></li>
       <li><a href="login.php"><i class='bx bx-log-in'></i> Login</a></li>
     
+=======
+      <li><a href="#"><i class='bx bx-user'></i> Perfil</a></li>
+      <li><a href="#"><i class='bx bx-history'></i> Histórico</a></li>
+      <li><a href="coment.php"><i class='bx bx-comment-detail'></i> Comentários</a></li>
+      <li><a href="acervo.php"><i class='bx bx-book'></i> Acervo</a></li>
+      <li><a href="aluguel.php"><i class='bx bx-key'></i> Aluguel</a></li>
+      <li><a href="#contato"><i class='bx bx-phone'></i> Contato</a></li>
+      <li><a href="#faq"><i class='bx bx-help-circle'></i> FAQ</a></li>
+      <li><a href="login.php"><i class='bx bx-log-in'></i> Login</a></li>
+>>>>>>> 22a0ff52cfac5c6b899e1b607f3392e87e1ae875
     </ul>
   </nav>
 

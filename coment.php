@@ -47,6 +47,7 @@ $comentarios = $conn->query($query);
 ?>
 
 <link rel="stylesheet" href="comentstyle.css">
+<<<<<<< HEAD
 <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
 
 <nav>
@@ -88,6 +89,8 @@ $comentarios = $conn->query($query);
       width: 100%;
     }
 </style>
+=======
+>>>>>>> 22a0ff52cfac5c6b899e1b607f3392e87e1ae875
 
 <form method="get">
   <select name="livro" onchange="this.form.submit()">
@@ -117,7 +120,10 @@ $comentarios = $conn->query($query);
   <p><em>Faça login para comentar.</em></p>
 <?php endif; ?>
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 22a0ff52cfac5c6b899e1b607f3392e87e1ae875
 <?php while ($com = $comentarios->fetch_assoc()): ?>
   <div class="comentario-box">
     <strong><?= htmlspecialchars($com['usuario']) ?></strong> comentou sobre <em><?= htmlspecialchars($com['titulo']) ?></em><br>

@@ -5,15 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!-- Garante que a página seja responsiva em dispositivos móveis -->
   <link rel="icon" href="imgG/favicon-32x32.io.png" type="image/png">
   <title>Biblioteca Luar Dourado</title> <!-- Define o título que aparece na aba do navegador -->
+<<<<<<< HEAD
 
   <link rel="stylesheet" href="index.css"> <!-- Importa o arquivo CSS externo para estilizar a página -->
   <section id="inicio"></section>
 </head>
+=======
+  <link rel="stylesheet" href="index.css"> <!-- Importa o arquivo CSS externo para estilizar a página -->
+  <section id="inicio"></section>
+</head>
+<body> <!-- Início do conteúdo visível da página -->
+<?php include("sidebarLogado.php"); ?>
+>>>>>>> 22a0ff52cfac5c6b899e1b607f3392e87e1ae875
   <header> <!-- Cabeçalho da página -->
     <h1>Biblioteca Luar Dourado</h1> <!-- Título principal -->
     <p>"Um pequeno livro lido, é um grande passo para o conhecimento"</p>    
 </header>
 
+<<<<<<< HEAD
   <div class="inicial-nav">
   <nav class="menu-princ">
      <!-- Menu de navegação -->
@@ -31,6 +40,9 @@
 
   <!--Menu de navegação side-->
   <?php include("sidebarLogado.php"); ?>
+=======
+<!-- Menu de navegação side -->
+>>>>>>> 22a0ff52cfac5c6b899e1b607f3392e87e1ae875
 
   <main>
   <!-- Seção de destaque com imagem e frase principal -->
@@ -57,16 +69,35 @@
       <div class="book-card">
           <div class="book-cover" style="background-image: url('https://m.media-amazon.com/images/I/81klJGqMlcL._SY466_.jpg');"></div>
           <div class="book-info">
+<<<<<<< HEAD
             <a href="HP.php">
+=======
+            <a href="HP.html">
+>>>>>>> 22a0ff52cfac5c6b899e1b607f3392e87e1ae875
               <h3>Harry Potter e a Pedra Filosofal</h3></a>
               <p>J.K. Rowling </p>
           </div>
       </div>
       
       <div class="book-card">
+<<<<<<< HEAD
         <div class="book-cover" style="background-image: url('https://m.media-amazon.com/images/I/819js3EQwbL._SY466_.jpg');"></div>
           <div class="book-info">
             <a href="1984.php">
+=======
+          <div class="book-cover" style="background-image: url('https://m.media-amazon.com/images/I/515cVYLIP9L._SY445_SX342_.jpg');"></div>
+          <div class="book-info">
+            <a href="cemanos.html">
+              <h3>Cem Anos de Solidão</h3></a>
+              <p>Gabriel García Márquez</p>
+          </div>
+      </div>
+      
+      <div class="book-card">
+        <div class="book-cover" style="background-image: url('https://m.media-amazon.com/images/I/819js3EQwbL._SY466_.jpg');"></div>
+          <div class="book-info">
+            <a href="1984.html">
+>>>>>>> 22a0ff52cfac5c6b899e1b607f3392e87e1ae875
             <h3>1984</h3></a>
             <p>George Orwell</p>
           </div>
@@ -75,7 +106,11 @@
       <div class="book-card">
           <div class="book-cover" style="background-image: url('https://m.media-amazon.com/images/I/71HgBiS-LKL._SY466_.jpg');"></div>
           <div class="book-info">
+<<<<<<< HEAD
             <a href="OPP.php">
+=======
+            <a href="OPP.html">
+>>>>>>> 22a0ff52cfac5c6b899e1b607f3392e87e1ae875
               <h3>O Pequeno Príncipe</h3></a>
               <p>Antoine de Saint-Exupéry</p>
           </div>
@@ -84,7 +119,11 @@
       <div class="book-card">
           <div class="book-cover" style="background-image: url('https://m.media-amazon.com/images/I/51IOoDKaUaL._SY445_SX342_.jpg');"></div>
           <div class="book-info">
+<<<<<<< HEAD
             <a href="amendoas.php">
+=======
+            <a href="amendoas.html">
+>>>>>>> 22a0ff52cfac5c6b899e1b607f3392e87e1ae875
               <h3>Amêndoas</h3></a>
               <p> Won-pyung Sohn</p>
           </div>
@@ -93,7 +132,11 @@
       <div class="book-card">
           <div class="book-cover" style="background-image: url('https://m.media-amazon.com/images/I/716EGgqzyOL._SY466_.jpg');"></div>
           <div class="book-info">
+<<<<<<< HEAD
             <a href="OneP.php">
+=======
+            <a href="OneP.html">
+>>>>>>> 22a0ff52cfac5c6b899e1b607f3392e87e1ae875
               <h3>One Piece Vol. 1 </h3></a>
               <p>Eiichiro Oda </p>
           </div>
@@ -130,7 +173,11 @@
       <p>Preencha o formulário abaixo ou venha presencialmente com documento com foto.</p>
     </div>
   </section>
+<<<<<<< HEAD
  
+=======
+  
+>>>>>>> 22a0ff52cfac5c6b899e1b607f3392e87e1ae875
   <!-- Seção de contato -->
   <section class="section" id="contato">
     <h2>Contato</h2>
@@ -138,6 +185,7 @@
   </section>
 
   </main>
+<<<<<<< HEAD
   <script> 
 const resizeBtn = document.querySelector('[data-resize-btn]');
 
@@ -146,13 +194,19 @@ resizeBtn.addEventListener('click', function(e) {
   document.body.classList.toggle('sb-expanded');
 });
 </script>
+=======
+>>>>>>> 22a0ff52cfac5c6b899e1b607f3392e87e1ae875
 
   <!-- Rodapé da página -->
   <footer>
     <p>&copy; 2025 Biblioteca Luar Dourado — Todos os direitos reservados</p>
     <div class="footer-links">
       <a href="#inicio">Início</a>
+<<<<<<< HEAD
       <a href="acervo.php">Acervo</a>
+=======
+      <a href="#acervo">Acervo</a>
+>>>>>>> 22a0ff52cfac5c6b899e1b607f3392e87e1ae875
       <a href="#contato">Contato</a>
     </div>
 

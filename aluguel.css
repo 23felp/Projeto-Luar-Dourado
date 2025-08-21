@@ -3,6 +3,7 @@ body {
     background: #f5f3ef;
     padding: 0;
     margin: 0;
+<<<<<<< HEAD
     height: 100vh;
     display: grid;
     place-items: center;
@@ -11,10 +12,18 @@ body {
 .container {
     width: 90%;
     max-width: 600px;
+=======
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 40px auto;
+>>>>>>> 22a0ff52cfac5c6b899e1b607f3392e87e1ae875
     background: white;
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+<<<<<<< HEAD
 }
 
 /* O restante do seu CSS permanece igual */
@@ -30,14 +39,36 @@ label {
 }
 
 input, select {
+=======
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  
+  input, select {
+>>>>>>> 22a0ff52cfac5c6b899e1b607f3392e87e1ae875
     width: 100%;
     padding: 10px;
     margin-top: 5px;
     border-radius: 6px;
     border: 1px solid #ccc;
+<<<<<<< HEAD
 }
 
 button {
+=======
+  }
+  
+  button {
+>>>>>>> 22a0ff52cfac5c6b899e1b607f3392e87e1ae875
     margin-top: 20px;
     width: 100%;
     padding: 12px;
@@ -47,6 +78,7 @@ button {
     border-radius: 6px;
     font-size: 16px;
     cursor: pointer;
+<<<<<<< HEAD
 }
 
 button:hover {
@@ -54,10 +86,23 @@ button:hover {
 }
 
 .confirmation {
+=======
+  }
+  
+  button:hover {
+    background-color: #5a4bcf;
+  }
+  
+  .confirmation {
+>>>>>>> 22a0ff52cfac5c6b899e1b607f3392e87e1ae875
     margin-top: 20px;
     padding: 15px;
     background: #dff9fb;
     border-left: 5px solid #00b894;
     border-radius: 6px;
     display: none;
+<<<<<<< HEAD
 }
+=======
+  }
+>>>>>>> 22a0ff52cfac5c6b899e1b607f3392e87e1ae875

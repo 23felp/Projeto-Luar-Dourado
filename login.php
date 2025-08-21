@@ -15,9 +15,12 @@ $erro = $_GET['erro'] ?? ''; //Pega mensagem de erro (se existir ) passada por G
             <input type="password" name="senha" required>
             <input type="submit" value="Entrar">
         </form>
+<<<<<<< HEAD
 
          <a href="inicial.php" class="cadastro">Voltar ao inicio</a>
 
+=======
+>>>>>>> 22a0ff52cfac5c6b899e1b607f3392e87e1ae875
         <div class="cadastro">
         <p><a href="inscrever.php">Não tem conta? | Cadastre-se</a></p>
     </div>

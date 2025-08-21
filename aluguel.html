@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alugar um Livro</title>
+  <link rel="stylesheet" href="aluguel.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h2>Alugar um Livro</h2>
+    <form id="rentalForm"> 
+      <label for="nome">Nome completo:</label>
+      <input type="text" id="nome" required />
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" required />
+
+      <label for="celular">Celular:</label>
+      <input type="tel" id="celular" required pattern="\d{10,11}" placeholder="Apenas números, ex: 11999999999" />
+
+      <label for="senha">Senha de login:</label>
+      <input type="password" id="senha" required minlength="6" />
+
+      <label for="cartao">Número do cartão de crédito:</label>
+      <input type="text" id="cartao" required pattern="\d{16}" placeholder="16 dígitos" />
+
+      <label for="cvv">CVV (Código de segurança):</label>
+      <input type="text" id="cvv" required pattern="\d{3}" placeholder="3 dígitos" />
+
+      <label for="livro">Livro:</label>
+      <select id="livro" required>
+        <option value="">-- Selecione um livro --</option>
+        <option value="O Pequeno Príncipe">O Pequeno Príncipe</option>
+        <option value="Dom Casmurro">Dom Casmurro</option>
+        <option value="1984">1984</option>
+        <option value="Orgulho e Preconceito">Orgulho e Preconceito</option>
+      </select>
+
+      <label for="dias">Quantidade de dias (máximo 15):</label>
+      <input type="number" id="dias" min="1" max="15" required />
+
+      <button type="submit">Alugar</button>
+    </form>
+
+    <div class="confirmation" id="confirmation"></div>
+  </div>
+
+  <script src="aluguel.js"></script>
+</body>
+</html>

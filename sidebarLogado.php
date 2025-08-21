@@ -1,13 +1,18 @@
 <?php
 session_start();
 
+<<<<<<< HEAD
 if (!isset($_SESSION['id'])) {
+=======
+if (!isset($_SESSION['logado']) || $_SESSION['logado'] !== true || !isset($_SESSION['email'])) {
+>>>>>>> 22a0ff52cfac5c6b899e1b607f3392e87e1ae875
     header("Location: inicial.php");
     exit;
 }
 
 include("config.php"); // Conexão com o banco
 
+<<<<<<< HEAD
 // Verifica se já tem os dados na sessão (otimização)
 if (isset($_SESSION['usuario']) && isset($_SESSION['foto_nome'])) {
     $usuario = $_SESSION['usuario'];
@@ -37,6 +42,31 @@ if (isset($_SESSION['usuario']) && isset($_SESSION['foto_nome'])) {
 }
 ?>
 
+=======
+$email_sessao = $_SESSION['email'];
+
+$sql = "SELECT usuario, foto_nome FROM tb_cadastro WHERE email = ?";
+$stmt = $conn->prepare($sql);
+$stmt->bind_param("s", $email_sessao); // "s" = string
+$stmt->execute();
+$result = $stmt->get_result();
+$dados = $result->fetch_assoc();
+
+if ($dados) {
+    $usuario = $dados['usuario'];
+    $foto_nome = $dados['foto_nome'] ?? 'imagens/default.png';
+
+    // Se quiser manter na sessão:
+    $_SESSION['foto_nome'] = $foto_nome;
+} else {
+    // Usuário não encontrado no banco, mesmo com o email
+    $usuario = 'Desconhecido';
+    $foto_nome = 'imagens/default.png';
+}
+?>
+
+
+>>>>>>> 22a0ff52cfac5c6b899e1b607f3392e87e1ae875
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -48,6 +78,10 @@ if (isset($_SESSION['usuario']) && isset($_SESSION['foto_nome'])) {
   <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
 
   <style>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 22a0ff52cfac5c6b899e1b607f3392e87e1ae875
     #menu-toggle {
       display: none;
     }
@@ -172,6 +206,7 @@ if (isset($_SESSION['usuario']) && isset($_SESSION['foto_nome'])) {
     }
 
     nav ul a {
+<<<<<<< HEAD
       margin: 0 1.5rem;
       position: relative;
       color: #f8f5f0;
@@ -202,6 +237,38 @@ if (isset($_SESSION['usuario']) && isset($_SESSION['foto_nome'])) {
     nav ul a:hover::after {
       width: 100%;
     }
+=======
+    margin: 0 1.5rem;
+    position: relative;
+    color: #f8f5f0;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: all 0.3s;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+nav ul a:hover {
+    color: #b8860b; /* Dourado */
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+nav ul a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #b8860b; /* Dourado */
+    transition: width 0.3s;
+}
+
+nav ul a:hover::after {
+    width: 100%;
+}
+>>>>>>> 22a0ff52cfac5c6b899e1b607f3392e87e1ae875
   </style>
 </head>
 <body>
@@ -219,18 +286,33 @@ if (isset($_SESSION['usuario']) && isset($_SESSION['foto_nome'])) {
   <!-- Sidebar com ícones Boxicons -->
   <nav class="sidebar">
     <div>
+<<<<<<< HEAD
       <!-- Foto e Nome -->
       <div class="profile">
         <img src="<?= htmlspecialchars($foto_nome) ?>" alt="Foto" onerror="this.src='imagens/default.png'">
         <h3><?= htmlspecialchars($usuario) ?></h3>
         <p>Bem-vindo!</p>
       </div>
+=======
+
+  <!-- Foto e Nome -->
+    <div class="profile">
+    <img src="<?= htmlspecialchars($foto_nome) ?>" alt="Foto">
+    <h3><?= htmlspecialchars($usuario) ?></h3>
+         <p>Bem-vindo!</p>
+    </div>
+>>>>>>> 22a0ff52cfac5c6b899e1b607f3392e87e1ae875
 
       <!-- Navegação -->
       <ul>
         <li><a href="home.php"><i class='bx bx-home'></i> Início</a></li>
+<<<<<<< HEAD
         <li><a href="perfil.php"><i class='bx bx-user'></i> Perfil</a></li>
         <li><a href="historico.php"><i class='bx bx-history'></i> Histórico</a></li>
+=======
+        <li><a href="#"><i class='bx bx-user'></i> Perfil</a></li>
+        <li><a href="#"><i class='bx bx-history'></i> Histórico</a></li>
+>>>>>>> 22a0ff52cfac5c6b899e1b607f3392e87e1ae875
         <li><a href="coment.php"><i class='bx bx-comment-detail'></i> Comentários</a></li>
         <li><a href="acervo.php"><i class='bx bx-book'></i> Acervo</a></li>
         <li><a href="aluguel.php"><i class='bx bx-key'></i> Aluguel</a></li>
