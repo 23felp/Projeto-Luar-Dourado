@@ -8,9 +8,7 @@ Este projeto é um **sistema web de biblioteca** desenvolvido em **PHP, CSS e Ja
 * Alteração de senha, foto e informações do perfil
 * Consulta ao acervo de livros disponíveis
 * Aluguel de livros
-* Histórico de empréstimos
-* Sistema de comentários
-* Painel com páginas de ajuda e FAQ
+
 
 ## 🛠️ Tecnologias Utilizadas
 
